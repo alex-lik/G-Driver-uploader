@@ -1,0 +1,38 @@
+[project]
+name = "g-drive-uploader"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "alex-best",email = "1987lex@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13, <3.14"
+dependencies = [
+    "icecream (>=2.1.4,<3.0.0)",
+    "loguru (>=0.7.3,<0.8.0)",
+    "google (>=3.0.0,<4.0.0)",
+    "google-cloud (>=0.34.0,<0.35.0)",
+    "google-cloud-vision (>=3.10.2,<4.0.0)",
+    "google-api-core (>=2.25.1,<3.0.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "watchdog (>=6.0.0,<7.0.0)",
+    "google-api-python-client (>=2.172.0,<3.0.0)",
+    "google-auth-httplib2 (>=0.2.0,<0.3.0)",
+    "google-auth-oauthlib (>=1.2.2,<2.0.0)",
+    "google-auth (>=2.40.3,<3.0.0)",
+    "requests (>=2.32.4,<3.0.0)",
+    "pywin32 (>=310,<311)",
+    "PyQt5 (==5.15.11)",
+    "PyQt5-Qt5 (==5.15.2)",
+    "PyQt5_sip (==12.17.0)",
+    "pyinstaller (>=6.14.1)",
+    "pyinstaller-hooks-contrib (>=2025.5)",
+]
+
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
